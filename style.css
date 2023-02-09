@@ -69,11 +69,14 @@ header{
 .my-failures{
     margin: 0 auto;
     width: 1072px;
-    height: 723.3px;
+    height: 725px;
     display: flex;
     align-items: center;
     gap: 80px;
     margin-bottom: 230px;
+    background: rgba(227, 213, 85, 0.948) ;
+    padding: 30px;
+    border-radius: 8px;
 }
 
 .failures-heading{
@@ -103,18 +106,27 @@ header{
     height: 300px;
     margin: 0 auto;
     margin-bottom: 230px;
+    
+    padding: 30px;
   }
   .my-plans-page .failures-heading{
       text-align: center;
-      margin-bottom: 70px;
+      margin-bottom: 50px;
     }
     
     .my-plans{
         display: flex; 
         gap: 20px;
+        justify-content: space-between;
+        align-items: center;
     }
     .my-plan{
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
+        width: 200px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
    .my-plan img{
     display: block;
@@ -127,13 +139,17 @@ header{
     text-align: center;
     margin-bottom: 20px;
    }
+   .my-plan h5{
+    color: #444343;
+    font-weight: 400;
+   }
    /* Positivity Page */
-   .positivity-page{
+   .positivity-container{
     width: 1072px;
     height: 300px;
     margin: 0 auto;
     margin-bottom: 230px;
-    background-image: url(./images/gradient1.png),url(./images/watch.png);
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(200, 100, 19, 0.83)),url(./images/watch.png);
     border-radius: 8px;
     padding: 64px 60px;
     display: flex;
@@ -159,13 +175,16 @@ footer{
     background: #151414;
     height: 400px;
     padding: 50px 130px ;
-    color: #9c9494;
+    color: white;
     margin-bottom: 0;
     display: flex;
     justify-content: space-between;   
 }
-.future{
+.bright-future{
     width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     /* border: 1px solid white; */
 }
 .social-icons{
