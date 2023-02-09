@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+p{
+    font-size:  16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #9c9494;
+}
+header{
+    background: url(./images/banner/banner2.png);
+    width: 100%;
+    height: 809px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 230px;
+    margin-bottom: 230px;
+}
+/* Banner Page */
+.banner{
+    /* width: 525px; */
+    height: 228px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    /* align-items:flex-end; */
+
+}
+.banner-heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+    width: 525px;
+    height: 228px;
+    text-align: right;
+}
+.banner-para{
+    font-size:  16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    text-align: right;
+    width:  525px;
+    height: 78px;
+}
+.banner-btn{
+    color: white;
+    background: orangered;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+    align-self: flex-end;   
+}
+
+/* My failure list styles */
+.my-failures{
+    margin: 0 auto;
+    width: 1072px;
+    height: 723.3px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 230px;
+}
+
+.failures-heading{
+    /* font-size: 40px;
+    font-weight: 900; */
+    margin-bottom: 30px;
+}
+.failures-para{
+    font-size:  16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 30px;
+}
+.my-failures-list{
+    list-style: none;
+    line-height: 40px;
+}
+.my-failures-list li:before {
+    content: '✓';
+    color: green;
+  }
+
+  /* My Plans */
+  .my-plans-page{
+    width: 1072px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 230px;
+  }
+  .my-plans-page .failures-heading{
+      text-align: center;
+      margin-bottom: 70px;
+    }
+    
+    .my-plans{
+        display: flex; 
+        gap: 20px;
+    }
+    .my-plan{
+        margin-bottom: 30px;
+    }
+   .my-plan img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+   }
+
+   .my-plan h4,.my-plan h5{
+    text-align: center;
+    margin-bottom: 20px;
+   }
+   /* Positivity Page */
+   .positivity-page{
+    width: 1072px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 230px;
+    background-image: url(./images/gradient1.png),url(./images/watch.png);
+    border-radius: 8px;
+    padding: 64px 60px;
+    display: flex;
+    justify-content: flex-start;
+   }
+   .positivity-content{
+    width: 500px;
+    height: 180px;
+   }
+   .positivity-content h2{
+    color: white;
+    margin-bottom: 20px;
+   }
+   .positivity-btn{
+    background-color: white;
+    color: orangered;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+   }
+/* Footer Page */
+footer{
+    background: #151414;
+    height: 400px;
+    padding: 50px 230px ;
+    color: #9c9494;
+    margin-bottom: 0;
+}
+
+
+/* .subscription{
+    width: 485px;
+    height: 317px;
+} */
